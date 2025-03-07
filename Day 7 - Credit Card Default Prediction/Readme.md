@@ -6,6 +6,9 @@ Credit card default prediction is crucial for financial institutions to mitigate
 ## Dataset
 The dataset contains information about credit card clients, including their credit limit, payment history, bill amounts, and demographic details.
 
+- The dataset is available on **GitHub** (Jupyter Notebook & dataset included)
+- Can also be accessed from Kaggle: [Default of Credit Card Clients Dataset](https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset)
+
 ### Features Used:
 - **LIMIT_BAL**: Credit Limit
 - **AGE**: Age of the cardholder
@@ -38,6 +41,12 @@ The dataset contains information about credit card clients, including their cred
 - **Logistic Regression (Balanced)** improved recall for defaulters but had lower precision.
 - **KNN & MLPClassifier** performed well but were slower due to high computational complexity.
 
+## Challenges Faced
+- **Class Imbalance**: The dataset had significantly fewer defaulters, requiring techniques like **class weighting** to improve recall.
+- **Feature Engineering**: Selecting the most relevant features was challenging and required iterative testing.
+- **Hyperparameter Tuning**: Some models like **XGBoost** and **MLPClassifier** needed extensive tuning for better performance.
+- **Training Time**: Computational complexity was an issue for models like **KNN** and **MLPClassifier**, making them slower than others.
+
 ## Future Improvements
 - Tune hyperparameters for **XGBoost** and **Random Forest**
 - Try ensemble methods like **Stacking & Boosting**
@@ -45,4 +54,3 @@ The dataset contains information about credit card clients, including their cred
 - Perform feature selection to remove redundant variables
 
 ---
-
