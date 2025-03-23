@@ -10,6 +10,8 @@ This enables **proactive maintenance**, reducing downtime and improving efficien
 ---
 
 ## 📂 Dataset Information
+
+🔗 **Project Notebook on Kaggle:** [Click Here](https://www.kaggle.com/code/jayantkathuria/predictive-maintenance-using-sensor-data)
 - **Source:** [Kaggle - Predictive Maintenance Dataset](https://www.kaggle.com/code/jayantkathuria/predictive-maintenance-using-sensor-data)
 - **Size:** 10,000 rows × 14 features
 - **Key Features:**
