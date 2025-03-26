@@ -3,6 +3,9 @@
 ## Overview
 This project aims to predict the severity of insurance claims using various regression models. Due to hardware constraints, the analysis was conducted on a reduced dataset (approximately 45% of the original data) to optimize computational efficiency.
 
+## Dataset
+The dataset used in this project is from the Allstate Claims Severity competition on Kaggle. It can be accessed here: [Allstate Claims Severity Dataset](https://www.kaggle.com/competitions/allstate-claims-severity/data)
+
 ## Methodology
 1. **Data Preprocessing:**
    - One-hot encoding was applied to categorical columns to convert them into numerical features.
