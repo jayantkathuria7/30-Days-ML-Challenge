@@ -5,6 +5,7 @@ Classify Amazon food reviews as positive or negative using an LSTM model, levera
 
 ## Data Overview
 - **Dataset:** 568k+ Amazon food reviews (Reviews.csv)
+  - [Amazon Fine Food Reviews Dataset](https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews)
 - **Key Features:**
   - Score (1–5 ratings)
   - Review Text (content of the review)
@@ -28,6 +29,7 @@ Classify Amazon food reviews as positive or negative using an LSTM model, levera
 - **Tokenization:** Converted text to sequences using TensorFlow/Keras.
 - **Padding:** Standardized sequence length for LSTM input.
 - **GloVe Embeddings:** Loaded pre-trained 100D vectors (glove.6B.100d.txt) and created an embedding matrix.
+  - [GloVe Embeddings (100D)](https://www.kaggle.com/datasets/danielwillgeorge/glove6b100dtxt)
 
 ## LSTM Model
 ### Architecture
@@ -66,3 +68,6 @@ Classify Amazon food reviews as positive or negative using an LSTM model, levera
 - Class imbalance needs careful handling (F1-score > accuracy for evaluation).
 - LSTM excels in sentiment understanding but struggles with nuanced language like sarcasm.
 
+## Kaggle Notebook
+You can find the complete implementation and code in the following Kaggle Notebook:
+[Product Review Sentiment Analysis using LSTM](https://www.kaggle.com/code/jayantkathuria/product-review-sentiment-analysis-using-lstm)
