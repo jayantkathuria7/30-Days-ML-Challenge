@@ -4,7 +4,7 @@
 This project aims to detect fake news articles using machine learning models. The dataset used for training consists of labeled news articles categorized as either "Fake" or "Real." By applying Natural Language Processing (NLP) techniques and machine learning algorithms, this project effectively identifies misleading or false news.
 
 ## Dataset
-The dataset used in this project was obtained from Kaggle: [Fake News Dataset](https://www.kaggle.com/code/alokkumar2507/fake-news-detection-using-svm-99-39). It consists of labeled news articles with two classes:
+The dataset used in this project was obtained from Kaggle: [Fake News Dataset](https://www.kaggle.com/datasets/vishakhdapat/fake-news-detection). It consists of labeled news articles with two classes:
 - **Fake News** (1): News articles that contain misleading or false information.
 - **Real News** (0): Authenticated and credible news articles.
 
